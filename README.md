@@ -1,4 +1,4 @@
-# Question 6
+# CISION Question 6
 
 It was created a module that creates the above resources in a way that would satisfy the requirements. If you intend to create IAM users for CI integrations, you should consider OIDC integration over IAM users for enhanced security and to save time from having to rotate credentials. For IAM users, you should consider using IAM Identity Center (AWS SSO) with AWS Organization instead of creating IAM users and managing assume roles. This will save you time and effort from having to manage IAM users manually across multiple accounts.
 
